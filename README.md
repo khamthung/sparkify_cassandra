@@ -17,9 +17,12 @@ event_data/2018-11-09-events.csv
 The Jupyter notebook demonstrate "Data modeling with Apache Cassandra" and "ETL pipeline using Python". Modeling data by creating tables in Apache Cassandra to run queries. The ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
 
 ## Part I : ETL Pipeline
-Iterate through each event file in `event_data` folder to process and create a `event_data_new.csv` file in Python
+Iterate through each event file in `event_data` folder to process and create a `event_datafile_new.csv` file in Python
 Make necessary edits to Part II of the notebook template to including Apache Cassandra `CREATE` and `INSERT` statements to load processed records into relevant tables of the data model.
 
+```
+event_datafile_new.csv
+```
 ![alt text](images/event_data_new.png "Event data new")
 
 ## Part II :Modeling NoSQL database with Apache Cassandra
