@@ -10,15 +10,19 @@ There is one dataset: event_data. The directory of CSV files partitioned by date
 event_data/2018-11-08-events.csv
 event_data/2018-11-09-events.csv
 ```
+![alt text](images/event_data.png "Event data")
+
 
 ## Overview
 The Jupyter notebook demonstrate "Data modeling with Apache Cassandra" and "ETL pipeline using Python". Modeling data by creating tables in Apache Cassandra to run queries. The ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
 
-### Part I : ETL Pipeline
+## Part I : ETL Pipeline
 Iterate through each event file in `event_data` folder to process and create a `event_data_new.csv` file in Python
 Make necessary edits to Part II of the notebook template to including Apache Cassandra `CREATE` and `INSERT` statements to load processed records into relevant tables of the data model.
 
-### Part II :Modeling NoSQL database with Apache Cassandra
+![alt text](images/event_data_new.png "Event data new")
+
+## Part II :Modeling NoSQL database with Apache Cassandra
 1. Design each tables based on each queries to answer each question. 
 2. `CREATE KEYSPACE` and `SET KEYSPACE` statements.
 3. Develop `CREATE TABLE` statement for each of the tables to address each question.
